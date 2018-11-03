@@ -5,14 +5,14 @@
 #  It is licensed for non-commercial use according to 
 #  www.computerhistory.org/softwarelicense/photoshop/ 
 
-MovableWDEF : MovableWDEF.p.o
-	Link \
-		-o MovableWDEF \
-		-rt WDEF=3 \
-		-m MOVABLEWDEF \
-		-sn Main='Movable' \
+MovableWDEF ƒ MovableWDEF.p.o
+	Link ∂
+		-o MovableWDEF ∂
+		-rt WDEF=3 ∂
+		-m MOVABLEWDEF ∂
+		-sn Main='Movable' ∂
 		MovableWDEF.p.o
 	Delete MovableWDEF.p.o
 
-MovableWDEF.p.o : MovableWDEF.p
+MovableWDEF.p.o ƒ MovableWDEF.p
 	Pascal MovableWDEF.p -z -r

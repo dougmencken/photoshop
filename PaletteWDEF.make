@@ -5,14 +5,14 @@
 #  It is licensed for non-commercial use according to 
 #  www.computerhistory.org/softwarelicense/photoshop/ 
 
-PaletteWDEF : PaletteWDEF.p.o
-	Link \
-		-o PaletteWDEF \
-		-rt WDEF=2 \
-		-m PALETTEWDEF \
-		-sn Main='Palette' \
+PaletteWDEF ƒ PaletteWDEF.p.o
+	Link ∂
+		-o PaletteWDEF ∂
+		-rt WDEF=2 ∂
+		-m PALETTEWDEF ∂
+		-sn Main='Palette' ∂
 		PaletteWDEF.p.o
 	Delete PaletteWDEF.p.o
 
-PaletteWDEF.p.o : PaletteWDEF.p
+PaletteWDEF.p.o ƒ PaletteWDEF.p
 	Pascal PaletteWDEF.p -z -r
